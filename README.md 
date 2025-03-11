@@ -1,0 +1,30 @@
+# Pandas Data Analyst AI Copilot
+
+![App Screenshot](https://raw.githubusercontent.com/georgeschamma/some-repo/main/screenshot.png)
+
+An AI-powered data analysis tool that allows you to interact with your CSV and Excel files through natural language queries. Ask questions about your data and get instant visualizations and insights.
+
+## Features
+
+- Natural language interface for data analysis
+- Support for CSV and Excel files
+- Interactive data visualizations with Plotly
+- Automated data wrangling and transformation
+- Sample questions and examples for quick starts
+
+## Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/pandas-data-analyst-ai.git
+cd pandas-data-analyst-ai
+
+# Create and activate virtual environment
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the app
+streamlit run app.py
