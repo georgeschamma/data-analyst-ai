@@ -8,6 +8,7 @@ from openai import OpenAI
 from langchain_community.chat_message_histories import StreamlitChatMessageHistory
 from langchain_openai import ChatOpenAI
 
+# Import agent classes directly from their modules
 from agents.pandas_data_analyst import PandasDataAnalyst
 from agents.data_wrangling_agent import DataWranglingAgent
 from agents.data_visualization_agent import DataVisualizationAgent
